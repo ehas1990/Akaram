@@ -2,29 +2,31 @@
 <html lang="en">
 
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASYC - Photo Gallery</title>
+  <title>ASYC-Blood Bank</title>
 
   <!--Essential css files-->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  
-  </script> 
-  <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</script> 
   <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/jquery-ui.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
   <link rel="stylesheet" href="assets/css/fancybox.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/customstyle.css">
+
   <!--favicon-->
   <link rel="icon" href="assets/images/favicon.html">
-
 </head>
 
 <body>
-
   <!--preloader start-->
   <div class="preloader">
     <h1><a href="index-2.html"><img src="assets/images/akaram_logo.png" class="logo-preloder"></a></h1>
@@ -253,155 +255,81 @@
     </div>
   </header>
   <!-- header end -->
-
   <!-- breadcrumb start -->
   <div class="breadcrumb_section overflow-hidden ptb-150">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 text-center">
-          <h2> Gallery</h2>
+          <h2>Become A Blood Donar</h2>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li class="active">Gallery</li>
+            <li class="active">Become A Blood Donar</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
   <!-- breadcrumb end -->
-
-  <!-- gallery start -->
-  <section class="gallery3 ptb-115 ">
+  <!-- donate form start -->
+  <div class="gray_bg ptb-120">
     <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 ">
-          <div class="common_title text-center">
-            <p>Gallary</p>
-            <h2>Our Best Campaign Gallery</h2>
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-11 col-12">
+              <div class="km__donate__form">
+                <h6 class="mb-30">Basic Information</h6>
+                <div class="km__form__donat">
+                  <form action="#">
+                    <div class="row g-4">
+                      <div class="col-12 col-sm-6">
+                        <input type="text" placeholder="Frist Name">
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <input type="text" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <div class="row g-4">
+                      <div class="col-12 col-sm-6">
+                        <input type="email" placeholder="Email">
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <input type="text" placeholder="Adress">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <textarea placeholder="Case Description..." rows="5"></textarea>
+                      </div>
+                    </div>
+                    <button type="submit" class="primary__btn border-0">Donate Now</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-xl-8 col-lg-8 col-md-11 col-12 ">
+          <div class="km__nice__select">
+            <h6 class="mb-30">Your Blood Donation</h6>
+            <div class="select__box">
+              <select class="nice_select">
+                <option date-display="select">Enter Your Donate Blood Group</option>
+                <option value="1">A +</option>
+                <option value="2">A -</option>
+                <option value="3">B +</option>
+                <option value="4">B -</option>
+                <option value="4">O +</option>
+                <option value="4">O -</option>
+                <option value="5">AB +</option>
+                <option value="6">AB -</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/awarness/5.JPG" alt="">
-            <a href="assets/images/awarness/5.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/awarness/6.jpg" alt="">
-            <a href="assets/images/awarness/6.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/awarness/7.JPG" alt="">
-            <a href="assets/images/awarness/7.JPG" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 038.jpg" alt="">
-            <a href="assets/images/gallery/0016 038.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 039.jpg" alt="">
-            <a href="assets/images/gallery/0016 039.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 040.jpg" alt="">
-            <a href="assets/images/gallery/0016 040.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4 mb-xl-0 mb-lg-0 mb-md-0">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 041.jpg" alt="">
-            <a href="assets/images/gallery/0016 041.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4 mb-xl-0 mb-lg-0 mb-md-0">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 042.jpg" alt="">
-            <a href="assets/images/gallery/0016 042.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 043.jpg" alt="">
-            <a href="assets/images/gallery/0016 043.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 044.jpg" alt="">
-            <a href="assets/images/gallery/0016 044.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 045.jpg" alt="">
-            <a href="assets/images/gallery/0016 045.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 046.jpg" alt="">
-            <a href="assets/images/gallery/0016 046.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/0016 047.jpg" alt="">
-            <a href="assets/images/gallery/0016 047.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/6.jpg" alt="">
-            <a href="assets/images/gallery/6.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/9998.jpg" alt="">
-            <a href="assets/images/gallery/9998.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/gallery/Photo1375.jpg" alt="">
-            <a href="assets/images/gallery/Photo1375.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/about-1/1.jpg" alt="">
-            <a href="assets/images/about-1/1.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/about-1/2.JPG" alt="">
-            <a href="assets/images/about-1/2.JPG" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-          <div class="gallary_item">
-            <img src="assets/images/about-1/3.jpg" alt="">
-            <a href="assets/images/about-1/3.jpg" data-fancybox="gallery"><i class="fa-solid fa-plus"></i></a>
-          </div>
-        </div>
-      </div>
+      
     </div>
-    </div>
-  </section>
-  <!-- gallery end -->
-
+  </div>
+  <!-- donate form start -->
   <!-- footer section start -->
   <footer>
     <div class="footer_top pt-115">
@@ -609,5 +537,7 @@
   <script src="assets/js/custom-js.js"></script>
 
 </body>
+
+
 
 </html>
