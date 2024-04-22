@@ -11,3 +11,7 @@
 .header_logo .img-fluid {
     width: 83% !important;
 }
+.list_2,.list_3
+{
+    display: none;
+}

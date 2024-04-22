@@ -2234,7 +2234,7 @@ footer .footer_top {
 
 footer .footer_top .container .row.border-bottom {
   padding-bottom: 50px;
-  border-color: var(--border-color) !important;
+  border-color: #00000005 !important;
 }
 
 footer .footer_top .footer_content h5 {
