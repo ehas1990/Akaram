@@ -1,12 +1,4 @@
-/*
-Theme Name: Blad Ai - Blood Donation HTML5 Template
-Author: SparkRaxx
-Author URI: https://themeforest.net/user/sparkraxx/portfolio
-Tags: 
-Description: Cartmate - Blad Ai - Blood Donation HTML5 Template
-Version: 1.0.0
-*/
-/********** base css ***********/
+
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&amp;display=swap");
 
 :root {
@@ -1307,7 +1299,8 @@ header .header_top .header_top_content a {
   position: absolute;
   top: 0;
   left: 0;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background: #ffffff;
   height: 100%;
   width: 33%;
   z-index: -1;
@@ -2935,15 +2928,15 @@ footer .footer_bottom p {
 }
 
 .hm1_hero.hm1 {
-  background: url("../images/hero1.jpg") no-repeat;
+  background: url("../images/slider/1.JPG") no-repeat;
 }
 
 .hm1_hero.hm12 {
-  background: url("../images/hm22.jpg") no-repeat;
+  background: url("../images/slider/2.JPG") no-repeat;
 }
 
 .hm1_hero.hm13 {
-  background: url("../images/hm33.png") no-repeat;
+  background: url("../images/slider/3.JPG") no-repeat;
 }
 
 @media (max-width: 991px) {

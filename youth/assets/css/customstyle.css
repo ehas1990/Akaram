@@ -8,3 +8,6 @@
     text-align: center;
     justify-content: center;
 }
+.header_logo .img-fluid {
+    width: 83% !important;
+}
