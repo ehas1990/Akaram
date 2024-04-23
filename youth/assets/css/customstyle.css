@@ -15,3 +15,33 @@
 {
     display: none;
 }
+#primary__btn2\ w-50 {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+    color:#fff;
+    background: #ea062b;
+    display: inline-block;
+    padding: 14px 41px;
+    -webkit-transition:all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    cursor: pointer;
+  }
+  #primary__btn2\ w-50:hover
+  {
+    background-color: black;
+    direction: rtl;
+    border: #000;
+    position: relative;
+    transition:all 0.3s ease-in;
+   
+  }
