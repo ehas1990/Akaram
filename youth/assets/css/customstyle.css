@@ -45,3 +45,8 @@
     transition:all 0.3s ease-in;
    
   }
+  .span_quote
+  {
+    font-size:medium;
+    color: #797777;
+  }
