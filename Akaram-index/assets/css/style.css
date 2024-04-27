@@ -1719,7 +1719,8 @@ header .header_top .header_top_content a {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--secondary-color);
+  background-image: url('../images/983a76b8a4.jpg');
+  background-size: cover;
   z-index: 999999;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -107,3 +107,14 @@
   .logo.mobile.py-3 img {
     width: 26%;
   }
+  .mb-30.founder_title {
+    font-size: 15px;
+    color: #686868;
+    font-weight: 600;
+  }
+  .mb-30.about_quote {
+    font-size: 16px;
+  }
+  .mark_quote {
+    color: #e80429;
+  }
