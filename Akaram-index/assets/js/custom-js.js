@@ -43,3 +43,23 @@ $(".list_3").hide();
     loadMoreBtn.addEventListener('click', showAdditionalImages);
   });
 
+
+// document.addEventListener("DOMContentLoaded", function() {
+  
+//     if (!localStorage.getItem("visitorCount")) {
+
+//         localStorage.setItem("visitorCount", "0");
+//     }
+    
+  
+//     var count = parseInt(localStorage.getItem("visitorCount"));
+    
+
+//     count++;
+    
+
+//     document.getElementById("visitorCount").innerText = count;
+
+//     localStorage.setItem("visitorCount", count.toString());
+// });
+
