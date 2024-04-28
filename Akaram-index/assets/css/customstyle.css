@@ -118,3 +118,63 @@
   .mark_quote {
     color: #e80429;
   }
+  #imageContainer img {
+    height: 280px;
+    object-fit: fill;
+    aspect-ratio: 3/1;
+  }
+  .col-xl-12.mb-4.more {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display: contents;
+  }
+  .btn41-43 {
+    padding: 15px;
+    font-family: inherit;
+
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  }
+  
+  .btn-41 {
+    border: 2px solid rgb(247, 5, 5);
+    z-index: 1;
+    color: rgb(253, 252, 252);
+    background-color: rgb(247, 5, 5);
+  }
+  
+  .btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction:ltr;
+    z-index: -1;
+    background:rgb(10, 10, 10);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-41:hover {
+    color: rgb(252, 252, 252);
+    border: 2px solid rgb(10, 10, 10);;
+  }
+  
+  .btn-41:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  
+  .btn-41:active {
+    top: 2px;
+  }

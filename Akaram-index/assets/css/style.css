@@ -2485,7 +2485,7 @@ footer .footer_bottom p {
 }
 
 .breadcrumb_section {
-  background: url("../images/b.jpg") no-repeat;
+  background: url("../images/donar.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -4516,6 +4516,7 @@ footer .footer_bottom p {
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
+  border: 10px solid #ea062b;
 }
 
 .gallary_item a i {
@@ -6157,4 +6158,32 @@ footer .footer_bottom p {
 
 .nice-select:focus {
   border: 1px solid var(--primary-color);
+}
+.social-btn2 {
+	width: 180px;
+	height: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background: var(--primary-color);
+	color: var(--white);
+	font-size: 18px;
+	font-weight: 600;
+	-webkit-transition: var(--transition_base);
+	-o-transition: var(--transition_base);
+	transition: var(--transition_base);
+	position: relative;
+	z-index: 1;
+  border-color:var(--primary-color) ;
+}
+.social-btn2:hover
+{
+  background-color: #111111;
+  border-color:#111111 ;
 }
