@@ -44,22 +44,22 @@ $(".list_3").hide();
   });
 
 
-// document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
   
-//     if (!localStorage.getItem("visitorCount")) {
+    if (!localStorage.getItem("visitorCount")) {
 
-//         localStorage.setItem("visitorCount", "0");
-//     }
+        localStorage.setItem("visitorCount", "0");
+    }
     
   
-//     var count = parseInt(localStorage.getItem("visitorCount"));
+    var count = parseInt(localStorage.getItem("visitorCount"));
     
 
-//     count++;
+    count++;
     
 
-//     document.getElementById("visitorCount").innerText = count;
+    document.getElementById("visitorCount").innerText = count;
 
-//     localStorage.setItem("visitorCount", count.toString());
-// });
+    localStorage.setItem("visitorCount", count.toString());
+});
 
