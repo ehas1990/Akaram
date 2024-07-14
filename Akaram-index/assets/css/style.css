@@ -6139,7 +6139,7 @@ footer .footer_bottom p {
 .nice-select {
   width: 100%;
   float: none;
-  height: 50px;
+  height: 56px;
 }
 
 .nice-select .current {
@@ -6186,4 +6186,34 @@ footer .footer_bottom p {
 {
   background-color: #111111;
   border-color:#111111 ;
+}
+input#submit {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #fff;
+  background: #ea062b;
+  border:#ea062b ;
+  display: inline-block;
+  padding: 14px 41px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  cursor: pointer;
+}
+input#submit:hover
+{
+  background-color: black;
+    direction: rtl;
+    border: #000;
+    position: relative;
+    transition:all 0.3s ease-in;
 }
